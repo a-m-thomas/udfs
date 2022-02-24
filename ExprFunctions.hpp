@@ -63,6 +63,10 @@ namespace UDIMPL {
     sprintf(result, "%g", val);
     return string(result);
   }
+  
+  inline bool greater_than_three (double x) {
+  return x > 3;
+  }
 }
 /****************************************/
 
