@@ -67,6 +67,11 @@ namespace UDIMPL {
   inline bool greater_than_three (double x) {
   return x > 3;
   }
+  
+  inline bool greater_than_nine (double x) {
+  return x > 9;
+  }
+  
 }
 /****************************************/
 
